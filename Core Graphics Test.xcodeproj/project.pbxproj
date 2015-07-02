@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A520735F1B40F32000DB5D37 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A520735E1B40F32000DB5D37 /* AnimationView.m */; };
+		A52073621B41002000DB5D37 /* ClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = A52073611B41002000DB5D37 /* ClipView.m */; };
+		A548A0C81B423F2500960C61 /* BezierElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0AC1B423F2500960C61 /* BezierElement.m */; };
+		A548A0C91B423F2500960C61 /* BezierFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0AE1B423F2500960C61 /* BezierFunctions.m */; };
+		A548A0CA1B423F2500960C61 /* BezierUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0B01B423F2500960C61 /* BezierUtils.m */; };
+		A548A0CB1B423F2500960C61 /* UIBezierPath+Elements.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0B21B423F2500960C61 /* UIBezierPath+Elements.m */; };
+		A548A0CC1B423F2500960C61 /* Drawing-Block.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0B51B423F2500960C61 /* Drawing-Block.m */; };
+		A548A0CD1B423F2500960C61 /* Drawing-Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0B71B423F2500960C61 /* Drawing-Gradient.m */; };
+		A548A0CE1B423F2500960C61 /* Drawing-Util.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0B91B423F2500960C61 /* Drawing-Util.m */; };
+		A548A0CF1B423F2500960C61 /* BaseGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0BC1B423F2500960C61 /* BaseGeometry.m */; };
+		A548A0D01B423F2500960C61 /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0BF1B423F2500960C61 /* ImageUtils.m */; };
+		A548A0D11B423F2500960C61 /* Drawing-Text.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0C21B423F2500960C61 /* Drawing-Text.m */; };
+		A548A0D21B423F2500960C61 /* UIBezierPath+Text.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0C41B423F2500960C61 /* UIBezierPath+Text.m */; };
+		A548A0D31B423F2500960C61 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0C71B423F2500960C61 /* Utility.m */; };
+		A548A0D91B423FA800960C61 /* PreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0D81B423FA800960C61 /* PreviewView.m */; };
+		A548A0DB1B42411500960C61 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548A0DA1B42411500960C61 /* Accelerate.framework */; };
+		A548A0DD1B42411D00960C61 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548A0DC1B42411D00960C61 /* QuartzCore.framework */; };
+		A548A0DF1B42412400960C61 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548A0DE1B42412400960C61 /* CoreText.framework */; };
+		A548A0E11B42412A00960C61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548A0E01B42412A00960C61 /* CoreGraphics.framework */; };
+		A548A0E31B42413000960C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548A0E21B42413000960C61 /* UIKit.framework */; };
+		A548A0E51B42413600960C61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548A0E41B42413600960C61 /* Foundation.framework */; };
+		A548A0E81B426E0F00960C61 /* FanTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0E71B426E0F00960C61 /* FanTestController.m */; };
+		A563D6791B3D2E3F00C9B791 /* ArcTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A563D6781B3D2E3F00C9B791 /* ArcTextView.m */; };
+		A563D67B1B3D303300C9B791 /* DroidSansFallback.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A563D67A1B3D303300C9B791 /* DroidSansFallback.ttf */; };
+		A5D366921B3BB66400E11F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D366911B3BB66400E11F1F /* main.m */; };
+		A5D366951B3BB66400E11F1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D366941B3BB66400E11F1F /* AppDelegate.m */; };
+		A5D366981B3BB66400E11F1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D366971B3BB66400E11F1F /* ViewController.m */; };
+		A5D3669B1B3BB66400E11F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D366991B3BB66400E11F1F /* Main.storyboard */; };
+		A5D3669D1B3BB66400E11F1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D3669C1B3BB66400E11F1F /* Images.xcassets */; };
+		A5D366A01B3BB66400E11F1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D3669E1B3BB66400E11F1F /* LaunchScreen.xib */; };
+		A5D366AC1B3BB66400E11F1F /* Core_Graphics_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D366AB1B3BB66400E11F1F /* Core_Graphics_TestTests.m */; };
+		A5D366B81B3BB6A700E11F1F /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D366B71B3BB6A700E11F1F /* BezierPathView.m */; };
+		A5D366BB1B3BD6C100E11F1F /* TransformsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D366BA1B3BD6C100E11F1F /* TransformsView.m */; };
+		A5D366BE1B3BDE7900E11F1F /* FontView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D366BD1B3BDE7900E11F1F /* FontView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5D366A61B3BB66400E11F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5D366841B3BB66400E11F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D3668B1B3BB66400E11F1F;
+			remoteInfo = "Core Graphics Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A520735D1B40F32000DB5D37 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		A520735E1B40F32000DB5D37 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+		A52073601B41002000DB5D37 /* ClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipView.h; sourceTree = "<group>"; };
+		A52073611B41002000DB5D37 /* ClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipView.m; sourceTree = "<group>"; };
+		A548A0AA1B423F2500960C61 /* Bezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bezier.h; sourceTree = "<group>"; };
+		A548A0AB1B423F2500960C61 /* BezierElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierElement.h; sourceTree = "<group>"; };
+		A548A0AC1B423F2500960C61 /* BezierElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierElement.m; sourceTree = "<group>"; };
+		A548A0AD1B423F2500960C61 /* BezierFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierFunctions.h; sourceTree = "<group>"; };
+		A548A0AE1B423F2500960C61 /* BezierFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierFunctions.m; sourceTree = "<group>"; };
+		A548A0AF1B423F2500960C61 /* BezierUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierUtils.h; sourceTree = "<group>"; };
+		A548A0B01B423F2500960C61 /* BezierUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierUtils.m; sourceTree = "<group>"; };
+		A548A0B11B423F2500960C61 /* UIBezierPath+Elements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Elements.h"; sourceTree = "<group>"; };
+		A548A0B21B423F2500960C61 /* UIBezierPath+Elements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Elements.m"; sourceTree = "<group>"; };
+		A548A0B41B423F2500960C61 /* Drawing-Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drawing-Block.h"; sourceTree = "<group>"; };
+		A548A0B51B423F2500960C61 /* Drawing-Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drawing-Block.m"; sourceTree = "<group>"; };
+		A548A0B61B423F2500960C61 /* Drawing-Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drawing-Gradient.h"; sourceTree = "<group>"; };
+		A548A0B71B423F2500960C61 /* Drawing-Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drawing-Gradient.m"; sourceTree = "<group>"; };
+		A548A0B81B423F2500960C61 /* Drawing-Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drawing-Util.h"; sourceTree = "<group>"; };
+		A548A0B91B423F2500960C61 /* Drawing-Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drawing-Util.m"; sourceTree = "<group>"; };
+		A548A0BB1B423F2500960C61 /* BaseGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGeometry.h; sourceTree = "<group>"; };
+		A548A0BC1B423F2500960C61 /* BaseGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGeometry.m; sourceTree = "<group>"; };
+		A548A0BE1B423F2500960C61 /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		A548A0BF1B423F2500960C61 /* ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtils.m; sourceTree = "<group>"; };
+		A548A0C11B423F2500960C61 /* Drawing-Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drawing-Text.h"; sourceTree = "<group>"; };
+		A548A0C21B423F2500960C61 /* Drawing-Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drawing-Text.m"; sourceTree = "<group>"; };
+		A548A0C31B423F2500960C61 /* UIBezierPath+Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Text.h"; sourceTree = "<group>"; };
+		A548A0C41B423F2500960C61 /* UIBezierPath+Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Text.m"; sourceTree = "<group>"; };
+		A548A0C61B423F2500960C61 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		A548A0C71B423F2500960C61 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		A548A0D71B423FA800960C61 /* PreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewView.h; sourceTree = "<group>"; };
+		A548A0D81B423FA800960C61 /* PreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewView.m; sourceTree = "<group>"; };
+		A548A0DA1B42411500960C61 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A548A0DC1B42411D00960C61 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A548A0DE1B42412400960C61 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A548A0E01B42412A00960C61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A548A0E21B42413000960C61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A548A0E41B42413600960C61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A548A0E61B426E0F00960C61 /* FanTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FanTestController.h; path = ../FanTestController.h; sourceTree = "<group>"; };
+		A548A0E71B426E0F00960C61 /* FanTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FanTestController.m; path = ../FanTestController.m; sourceTree = "<group>"; };
+		A563D6771B3D2E3F00C9B791 /* ArcTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcTextView.h; sourceTree = "<group>"; };
+		A563D6781B3D2E3F00C9B791 /* ArcTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcTextView.m; sourceTree = "<group>"; };
+		A563D67A1B3D303300C9B791 /* DroidSansFallback.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = DroidSansFallback.ttf; path = ../../../../fonts/DroidSansFallback.ttf; sourceTree = "<group>"; };
+		A5D3668C1B3BB66400E11F1F /* Core Graphics Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Graphics Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D366901B3BB66400E11F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D366911B3BB66400E11F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5D366931B3BB66400E11F1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5D366941B3BB66400E11F1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5D366961B3BB66400E11F1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		A5D366971B3BB66400E11F1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		A5D3669A1B3BB66400E11F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5D3669C1B3BB66400E11F1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5D3669F1B3BB66400E11F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A5D366A51B3BB66400E11F1F /* Core Graphics TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Graphics TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D366AA1B3BB66400E11F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D366AB1B3BB66400E11F1F /* Core_Graphics_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core_Graphics_TestTests.m; sourceTree = "<group>"; };
+		A5D366B61B3BB6A700E11F1F /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		A5D366B71B3BB6A700E11F1F /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
+		A5D366B91B3BD6C100E11F1F /* TransformsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformsView.h; sourceTree = "<group>"; };
+		A5D366BA1B3BD6C100E11F1F /* TransformsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformsView.m; sourceTree = "<group>"; };
+		A5D366BC1B3BDE7900E11F1F /* FontView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontView.h; sourceTree = "<group>"; };
+		A5D366BD1B3BDE7900E11F1F /* FontView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D366891B3BB66400E11F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A548A0E51B42413600960C61 /* Foundation.framework in Frameworks */,
+				A548A0E31B42413000960C61 /* UIKit.framework in Frameworks */,
+				A548A0E11B42412A00960C61 /* CoreGraphics.framework in Frameworks */,
+				A548A0DF1B42412400960C61 /* CoreText.framework in Frameworks */,
+				A548A0DD1B42411D00960C61 /* QuartzCore.framework in Frameworks */,
+				A548A0DB1B42411500960C61 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D366A21B3BB66400E11F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A548A0A81B423F2500960C61 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				A548A0A91B423F2500960C61 /* Bezier */,
+				A548A0B31B423F2500960C61 /* Drawing */,
+				A548A0BA1B423F2500960C61 /* Geometry */,
+				A548A0BD1B423F2500960C61 /* Image */,
+				A548A0C01B423F2500960C61 /* Text Drawing */,
+				A548A0C51B423F2500960C61 /* Utility */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		A548A0A91B423F2500960C61 /* Bezier */ = {
+			isa = PBXGroup;
+			children = (
+				A548A0AA1B423F2500960C61 /* Bezier.h */,
+				A548A0AB1B423F2500960C61 /* BezierElement.h */,
+				A548A0AC1B423F2500960C61 /* BezierElement.m */,
+				A548A0AD1B423F2500960C61 /* BezierFunctions.h */,
+				A548A0AE1B423F2500960C61 /* BezierFunctions.m */,
+				A548A0AF1B423F2500960C61 /* BezierUtils.h */,
+				A548A0B01B423F2500960C61 /* BezierUtils.m */,
+				A548A0B11B423F2500960C61 /* UIBezierPath+Elements.h */,
+				A548A0B21B423F2500960C61 /* UIBezierPath+Elements.m */,
+			);
+			path = Bezier;
+			sourceTree = "<group>";
+		};
+		A548A0B31B423F2500960C61 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				A548A0B41B423F2500960C61 /* Drawing-Block.h */,
+				A548A0B51B423F2500960C61 /* Drawing-Block.m */,
+				A548A0B61B423F2500960C61 /* Drawing-Gradient.h */,
+				A548A0B71B423F2500960C61 /* Drawing-Gradient.m */,
+				A548A0B81B423F2500960C61 /* Drawing-Util.h */,
+				A548A0B91B423F2500960C61 /* Drawing-Util.m */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		A548A0BA1B423F2500960C61 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				A548A0BB1B423F2500960C61 /* BaseGeometry.h */,
+				A548A0BC1B423F2500960C61 /* BaseGeometry.m */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		A548A0BD1B423F2500960C61 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A548A0BE1B423F2500960C61 /* ImageUtils.h */,
+				A548A0BF1B423F2500960C61 /* ImageUtils.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		A548A0C01B423F2500960C61 /* Text Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				A548A0C11B423F2500960C61 /* Drawing-Text.h */,
+				A548A0C21B423F2500960C61 /* Drawing-Text.m */,
+				A548A0C31B423F2500960C61 /* UIBezierPath+Text.h */,
+				A548A0C41B423F2500960C61 /* UIBezierPath+Text.m */,
+			);
+			path = "Text Drawing";
+			sourceTree = "<group>";
+		};
+		A548A0C51B423F2500960C61 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A548A0C61B423F2500960C61 /* Utility.h */,
+				A548A0C71B423F2500960C61 /* Utility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A5D366831B3BB66400E11F1F = {
+			isa = PBXGroup;
+			children = (
+				A548A0E41B42413600960C61 /* Foundation.framework */,
+				A548A0E21B42413000960C61 /* UIKit.framework */,
+				A548A0E01B42412A00960C61 /* CoreGraphics.framework */,
+				A548A0DE1B42412400960C61 /* CoreText.framework */,
+				A548A0DC1B42411D00960C61 /* QuartzCore.framework */,
+				A548A0DA1B42411500960C61 /* Accelerate.framework */,
+				A5D3668E1B3BB66400E11F1F /* Core Graphics Test */,
+				A5D366A81B3BB66400E11F1F /* Core Graphics TestTests */,
+				A5D3668D1B3BB66400E11F1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D3668D1B3BB66400E11F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3668C1B3BB66400E11F1F /* Core Graphics Test.app */,
+				A5D366A51B3BB66400E11F1F /* Core Graphics TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D3668E1B3BB66400E11F1F /* Core Graphics Test */ = {
+			isa = PBXGroup;
+			children = (
+				A5DE7AD81B44D487003BD57B /* Controllers */,
+				A548A0A81B423F2500960C61 /* Libs */,
+				A5D366B51B3BB68A00E11F1F /* Views */,
+				A5D3669C1B3BB66400E11F1F /* Images.xcassets */,
+				A5D3668F1B3BB66400E11F1F /* Supporting Files */,
+			);
+			path = "Core Graphics Test";
+			sourceTree = "<group>";
+		};
+		A5D3668F1B3BB66400E11F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3669E1B3BB66400E11F1F /* LaunchScreen.xib */,
+				A5D366931B3BB66400E11F1F /* AppDelegate.h */,
+				A5D366941B3BB66400E11F1F /* AppDelegate.m */,
+				A5D366991B3BB66400E11F1F /* Main.storyboard */,
+				A563D67A1B3D303300C9B791 /* DroidSansFallback.ttf */,
+				A5D366901B3BB66400E11F1F /* Info.plist */,
+				A5D366911B3BB66400E11F1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5D366A81B3BB66400E11F1F /* Core Graphics TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5D366AB1B3BB66400E11F1F /* Core_Graphics_TestTests.m */,
+				A5D366A91B3BB66400E11F1F /* Supporting Files */,
+			);
+			path = "Core Graphics TestTests";
+			sourceTree = "<group>";
+		};
+		A5D366A91B3BB66400E11F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D366AA1B3BB66400E11F1F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5D366B51B3BB68A00E11F1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5D366B61B3BB6A700E11F1F /* BezierPathView.h */,
+				A5D366B71B3BB6A700E11F1F /* BezierPathView.m */,
+				A5D366B91B3BD6C100E11F1F /* TransformsView.h */,
+				A5D366BA1B3BD6C100E11F1F /* TransformsView.m */,
+				A5D366BC1B3BDE7900E11F1F /* FontView.h */,
+				A5D366BD1B3BDE7900E11F1F /* FontView.m */,
+				A563D6771B3D2E3F00C9B791 /* ArcTextView.h */,
+				A563D6781B3D2E3F00C9B791 /* ArcTextView.m */,
+				A520735D1B40F32000DB5D37 /* AnimationView.h */,
+				A520735E1B40F32000DB5D37 /* AnimationView.m */,
+				A52073601B41002000DB5D37 /* ClipView.h */,
+				A52073611B41002000DB5D37 /* ClipView.m */,
+				A548A0D71B423FA800960C61 /* PreviewView.h */,
+				A548A0D81B423FA800960C61 /* PreviewView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5DE7AD81B44D487003BD57B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5D366961B3BB66400E11F1F /* ViewController.h */,
+				A5D366971B3BB66400E11F1F /* ViewController.m */,
+				A548A0E61B426E0F00960C61 /* FanTestController.h */,
+				A548A0E71B426E0F00960C61 /* FanTestController.m */,
+			);
+			name = Controllers;
+			path = "Core Graphics Test/Controllers";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D3668B1B3BB66400E11F1F /* Core Graphics Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D366AF1B3BB66400E11F1F /* Build configuration list for PBXNativeTarget "Core Graphics Test" */;
+			buildPhases = (
+				A5D366881B3BB66400E11F1F /* Sources */,
+				A5D366891B3BB66400E11F1F /* Frameworks */,
+				A5D3668A1B3BB66400E11F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Core Graphics Test";
+			productName = "Core Graphics Test";
+			productReference = A5D3668C1B3BB66400E11F1F /* Core Graphics Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5D366A41B3BB66400E11F1F /* Core Graphics TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D366B21B3BB66400E11F1F /* Build configuration list for PBXNativeTarget "Core Graphics TestTests" */;
+			buildPhases = (
+				A5D366A11B3BB66400E11F1F /* Sources */,
+				A5D366A21B3BB66400E11F1F /* Frameworks */,
+				A5D366A31B3BB66400E11F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5D366A71B3BB66400E11F1F /* PBXTargetDependency */,
+			);
+			name = "Core Graphics TestTests";
+			productName = "Core Graphics TestTests";
+			productReference = A5D366A51B3BB66400E11F1F /* Core Graphics TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D366841B3BB66400E11F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Eleven;
+				TargetAttributes = {
+					A5D3668B1B3BB66400E11F1F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A5D366A41B3BB66400E11F1F = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = A5D3668B1B3BB66400E11F1F;
+					};
+				};
+			};
+			buildConfigurationList = A5D366871B3BB66400E11F1F /* Build configuration list for PBXProject "Core Graphics Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D366831B3BB66400E11F1F;
+			productRefGroup = A5D3668D1B3BB66400E11F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D3668B1B3BB66400E11F1F /* Core Graphics Test */,
+				A5D366A41B3BB66400E11F1F /* Core Graphics TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5D3668A1B3BB66400E11F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A563D67B1B3D303300C9B791 /* DroidSansFallback.ttf in Resources */,
+				A5D3669B1B3BB66400E11F1F /* Main.storyboard in Resources */,
+				A5D366A01B3BB66400E11F1F /* LaunchScreen.xib in Resources */,
+				A5D3669D1B3BB66400E11F1F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D366A31B3BB66400E11F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D366881B3BB66400E11F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A548A0E81B426E0F00960C61 /* FanTestController.m in Sources */,
+				A548A0CE1B423F2500960C61 /* Drawing-Util.m in Sources */,
+				A548A0D11B423F2500960C61 /* Drawing-Text.m in Sources */,
+				A548A0CB1B423F2500960C61 /* UIBezierPath+Elements.m in Sources */,
+				A5D366B81B3BB6A700E11F1F /* BezierPathView.m in Sources */,
+				A548A0D31B423F2500960C61 /* Utility.m in Sources */,
+				A548A0D91B423FA800960C61 /* PreviewView.m in Sources */,
+				A548A0C91B423F2500960C61 /* BezierFunctions.m in Sources */,
+				A5D366BE1B3BDE7900E11F1F /* FontView.m in Sources */,
+				A5D366BB1B3BD6C100E11F1F /* TransformsView.m in Sources */,
+				A5D366981B3BB66400E11F1F /* ViewController.m in Sources */,
+				A548A0CC1B423F2500960C61 /* Drawing-Block.m in Sources */,
+				A5D366951B3BB66400E11F1F /* AppDelegate.m in Sources */,
+				A520735F1B40F32000DB5D37 /* AnimationView.m in Sources */,
+				A52073621B41002000DB5D37 /* ClipView.m in Sources */,
+				A563D6791B3D2E3F00C9B791 /* ArcTextView.m in Sources */,
+				A5D366921B3BB66400E11F1F /* main.m in Sources */,
+				A548A0D21B423F2500960C61 /* UIBezierPath+Text.m in Sources */,
+				A548A0CF1B423F2500960C61 /* BaseGeometry.m in Sources */,
+				A548A0CA1B423F2500960C61 /* BezierUtils.m in Sources */,
+				A548A0D01B423F2500960C61 /* ImageUtils.m in Sources */,
+				A548A0C81B423F2500960C61 /* BezierElement.m in Sources */,
+				A548A0CD1B423F2500960C61 /* Drawing-Gradient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D366A11B3BB66400E11F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D366AC1B3BB66400E11F1F /* Core_Graphics_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5D366A71B3BB66400E11F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D3668B1B3BB66400E11F1F /* Core Graphics Test */;
+			targetProxy = A5D366A61B3BB66400E11F1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5D366991B3BB66400E11F1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D3669A1B3BB66400E11F1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5D3669E1B3BB66400E11F1F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D3669F1B3BB66400E11F1F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5D366AD1B3BB66400E11F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5D366AE1B3BB66400E11F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5D366B01B3BB66400E11F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Core Graphics Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5D366B11B3BB66400E11F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Core Graphics Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5D366B31B3BB66400E11F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Core Graphics TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Graphics Test.app/Core Graphics Test";
+			};
+			name = Debug;
+		};
+		A5D366B41B3BB66400E11F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Core Graphics TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Graphics Test.app/Core Graphics Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D366871B3BB66400E11F1F /* Build configuration list for PBXProject "Core Graphics Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D366AD1B3BB66400E11F1F /* Debug */,
+				A5D366AE1B3BB66400E11F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D366AF1B3BB66400E11F1F /* Build configuration list for PBXNativeTarget "Core Graphics Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D366B01B3BB66400E11F1F /* Debug */,
+				A5D366B11B3BB66400E11F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D366B21B3BB66400E11F1F /* Build configuration list for PBXNativeTarget "Core Graphics TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D366B31B3BB66400E11F1F /* Debug */,
+				A5D366B41B3BB66400E11F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5D366841B3BB66400E11F1F /* Project object */;
+}
