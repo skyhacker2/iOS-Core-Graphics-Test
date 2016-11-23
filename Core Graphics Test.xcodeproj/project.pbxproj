@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A520735F1B40F32000DB5D37 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A520735E1B40F32000DB5D37 /* AnimationView.m */; };
 		A52073621B41002000DB5D37 /* ClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = A52073611B41002000DB5D37 /* ClipView.m */; };
+		A5210F301DE5BDB200C2E896 /* DroidSansFallback.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5210F2F1DE5BDB200C2E896 /* DroidSansFallback.ttf */; };
 		A548A0C81B423F2500960C61 /* BezierElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0AC1B423F2500960C61 /* BezierElement.m */; };
 		A548A0C91B423F2500960C61 /* BezierFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0AE1B423F2500960C61 /* BezierFunctions.m */; };
 		A548A0CA1B423F2500960C61 /* BezierUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0B01B423F2500960C61 /* BezierUtils.m */; };
@@ -30,7 +31,6 @@
 		A548A0E51B42413600960C61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548A0E41B42413600960C61 /* Foundation.framework */; };
 		A548A0E81B426E0F00960C61 /* FanTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A548A0E71B426E0F00960C61 /* FanTestController.m */; };
 		A563D6791B3D2E3F00C9B791 /* ArcTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A563D6781B3D2E3F00C9B791 /* ArcTextView.m */; };
-		A563D67B1B3D303300C9B791 /* DroidSansFallback.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A563D67A1B3D303300C9B791 /* DroidSansFallback.ttf */; };
 		A5D366921B3BB66400E11F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D366911B3BB66400E11F1F /* main.m */; };
 		A5D366951B3BB66400E11F1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D366941B3BB66400E11F1F /* AppDelegate.m */; };
 		A5D366981B3BB66400E11F1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D366971B3BB66400E11F1F /* ViewController.m */; };
@@ -58,6 +58,7 @@
 		A520735E1B40F32000DB5D37 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 		A52073601B41002000DB5D37 /* ClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipView.h; sourceTree = "<group>"; };
 		A52073611B41002000DB5D37 /* ClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipView.m; sourceTree = "<group>"; };
+		A5210F2F1DE5BDB200C2E896 /* DroidSansFallback.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansFallback.ttf; sourceTree = "<group>"; };
 		A548A0AA1B423F2500960C61 /* Bezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bezier.h; sourceTree = "<group>"; };
 		A548A0AB1B423F2500960C61 /* BezierElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierElement.h; sourceTree = "<group>"; };
 		A548A0AC1B423F2500960C61 /* BezierElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierElement.m; sourceTree = "<group>"; };
@@ -95,7 +96,6 @@
 		A548A0E71B426E0F00960C61 /* FanTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FanTestController.m; path = ../FanTestController.m; sourceTree = "<group>"; };
 		A563D6771B3D2E3F00C9B791 /* ArcTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcTextView.h; sourceTree = "<group>"; };
 		A563D6781B3D2E3F00C9B791 /* ArcTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcTextView.m; sourceTree = "<group>"; };
-		A563D67A1B3D303300C9B791 /* DroidSansFallback.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = DroidSansFallback.ttf; path = ../../../../fonts/DroidSansFallback.ttf; sourceTree = "<group>"; };
 		A5D3668C1B3BB66400E11F1F /* Core Graphics Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Graphics Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D366901B3BB66400E11F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D366911B3BB66400E11F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -260,11 +260,11 @@
 		A5D3668F1B3BB66400E11F1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5210F2F1DE5BDB200C2E896 /* DroidSansFallback.ttf */,
 				A5D3669E1B3BB66400E11F1F /* LaunchScreen.xib */,
 				A5D366931B3BB66400E11F1F /* AppDelegate.h */,
 				A5D366941B3BB66400E11F1F /* AppDelegate.m */,
 				A5D366991B3BB66400E11F1F /* Main.storyboard */,
-				A563D67A1B3D303300C9B791 /* DroidSansFallback.ttf */,
 				A5D366901B3BB66400E11F1F /* Info.plist */,
 				A5D366911B3BB66400E11F1F /* main.m */,
 			);
@@ -370,9 +370,11 @@
 				TargetAttributes = {
 					A5D3668B1B3BB66400E11F1F = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = LM8EQ9TVG6;
 					};
 					A5D366A41B3BB66400E11F1F = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = LM8EQ9TVG6;
 						TestTargetID = A5D3668B1B3BB66400E11F1F;
 					};
 				};
@@ -401,7 +403,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A563D67B1B3D303300C9B791 /* DroidSansFallback.ttf in Resources */,
+				A5210F301DE5BDB200C2E896 /* DroidSansFallback.ttf in Resources */,
 				A5D3669B1B3BB66400E11F1F /* Main.storyboard in Resources */,
 				A5D366A01B3BB66400E11F1F /* LaunchScreen.xib in Resources */,
 				A5D3669D1B3BB66400E11F1F /* Images.xcassets in Resources */,
@@ -572,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LM8EQ9TVG6;
 				INFOPLIST_FILE = "Core Graphics Test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -583,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LM8EQ9TVG6;
 				INFOPLIST_FILE = "Core Graphics Test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -594,6 +598,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LM8EQ9TVG6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -613,6 +618,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LM8EQ9TVG6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
